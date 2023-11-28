@@ -1,0 +1,39 @@
+.footer {
+    width: var(--footer-width);
+    height: var(--footer-height);
+    border-top: solid 1px black;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerText {
+    font-weight: 800;
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+}
+
+
+.footerButton {
+    height: 30px;
+    width: 160px;
+    border: 1px solid white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.footerButton a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.footerButton:hover {
+    cursor: pointer;
+}

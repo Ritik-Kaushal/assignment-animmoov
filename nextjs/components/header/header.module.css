@@ -1,0 +1,30 @@
+.header {
+    width: var(--header-width);
+    height: var(--header-height);
+    border-bottom: solid 1px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.model {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.modelFirst {
+    color: red;
+    font-weight: 800;
+    font-size: large;
+}
+
+.modelSecond {
+    font-weight: 800;
+    font-size: large;
+}

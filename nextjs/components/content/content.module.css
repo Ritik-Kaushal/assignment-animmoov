@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: var(--container-width);
+    height: var(--content-height);
+    position: absolute;
+    top: calc(var(--header-height) + 10px);
+}
+
+.images {
+    display: 'flex';
+    width: '100%';
+    overflow: 'hidden';
+}
+
+.contentText {
+    font-size: large;
+    font-weight: 600;
+    height: 65px;
+    width: var(--container-width);
+    position: absolute;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
