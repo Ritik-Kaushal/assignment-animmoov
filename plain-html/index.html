@@ -4,11 +4,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Audi R8</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">
+                <img src="/public/audi-logo.png" alt="audi-logo" height="70" width="100">
+            </div>
+            <div class="model">
+                <span class="modelFirst">R8</span>&nbsp;
+                <span class="modelSecond">e-tron</span>
+            </div>
+        </div>
 
+        <!-- Content -->
+        <div class="content">
+            <div class="content-text" id="contentText"></div>
+
+            <!-- Image Content -->
+            <div class="image-container" id="imageContainer">
+                <div class="headlight" id="headlight">
+                    <img src="/public/headlight.png" width="70" height="50" alt="headlight">
+                </div>
+                <div class="machine" id="machine">
+                    <img src="/public/machine.png" width="200" height="100" alt="machine">
+                </div>
+                <div>
+                    <img src="/public/skeleton.jpg" width="320" height="300" alt="skeleton">
+                </div>
+                <div class="car" id="car">
+                    <img src="/public/car.jpg" width="320" height="300" alt="car">
+                </div>
+            </div>
+
+            <!-- Slider -->
+            <div id="sliderContainer" class="slider-container">
+                <input type="range" min="0" max="100" value="0" id="mySlider" class="slider">
+            </div>
+            <div id="handAnimation" class="hand-animation" style="display: none;">
+                <img src="/public/hand.png" height={40} width={40} alt="hand" />
+            </div>
+
+
+            <!-- Video Content -->
+            <div id="videoContainer" class="video-container">
+                <video autoplay muted>
+                    <source src="/public/video.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div id="lastImageContainer" class="last-image-container">
+                <img src="/public/lastImage.jpg" alt="last image" style="width: 100%; height: 91%;">
+            </div>
+
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="footerText">Integration Hochvolt-Batteriesystem in die Karosseriestruktur</div>
+            <div class="footerButton"><a href="https://www.audi-mediacenter.com/en/audi-r8-e-tron-172"
+                    target="_blank">Learn more</a></div>
+        </div>
+
+    </div>
+    <script src="scripts.js"></script>
 </body>
 
 </html>
